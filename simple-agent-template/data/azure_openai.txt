@@ -1,0 +1,84 @@
+# Azure OpenAI Service Guide
+
+Azure OpenAI Service provides access to OpenAI's advanced language models through Microsoft Azure's cloud infrastructure, offering enterprise-grade capabilities and compliance.
+
+## Available Models
+
+### GPT-4 Series
+- GPT-4: Most capable model for complex tasks
+- GPT-4 Turbo: Optimized for speed and cost
+- GPT-4 Vision: Multimodal model with image understanding
+
+### GPT-3.5 Series
+- GPT-3.5 Turbo: Fast and cost-effective for most tasks
+- GPT-3.5 Turbo 16k: Extended context window version
+
+### Embedding Models
+- text-embedding-ada-002: General-purpose embeddings
+- text-embedding-3-small: Smaller, faster embeddings
+- text-embedding-3-large: Higher quality embeddings
+
+## Key Features
+
+### Enterprise Security
+- Virtual network support for private connectivity
+- Customer-managed keys for encryption
+- Azure Active Directory integration
+- Compliance with major standards (SOC 2, HIPAA, ISO 27001)
+
+### Content Filtering
+- Built-in content moderation
+- Customizable filtering policies
+- Protection against harmful content
+- Compliance with responsible AI principles
+
+### Regional Availability
+- Multiple Azure regions worldwide
+- Data residency options
+- Low-latency access globally
+
+### Monitoring and Management
+- Azure Monitor integration
+- Detailed usage analytics
+- Cost management tools
+- Rate limiting and quotas
+
+## Deployment Types
+
+### Standard Deployment
+- Shared infrastructure
+- Pay-per-use pricing
+- Automatic scaling
+- Suitable for most applications
+
+### Provisioned Throughput
+- Reserved capacity
+- Predictable performance
+- Dedicated resources
+- Ideal for high-volume applications
+
+## Getting Started
+
+1. Create an Azure OpenAI resource in Azure Portal
+2. Request access to desired models
+3. Deploy a model to your resource
+4. Get API keys and endpoints
+5. Start making API calls
+
+## Pricing
+
+Pricing is based on:
+- Token usage (input and output tokens)
+- Model type (GPT-4 vs GPT-3.5)
+- Deployment type (standard vs provisioned)
+- Region
+
+## Best Practices
+
+- Use appropriate models for each task (don't over-engineer)
+- Implement caching to reduce costs
+- Monitor token usage regularly
+- Set up alerts for unusual activity
+- Use system messages effectively
+- Implement retry logic with exponential backoff
+- Consider batch processing for bulk operations
