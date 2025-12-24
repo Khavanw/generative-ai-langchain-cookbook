@@ -1,4 +1,4 @@
-# Multi-Agent Template
+# 02. Multi-Agent
 
 A comprehensive multi-agent system built with LangChain, featuring specialized agents that collaborate to complete complex tasks.
 
@@ -131,14 +131,21 @@ print(result["final_output"])
 ## Project Structure
 
 ```
-multi-agent-template/
+02-multi-agent/
 ├── main.py              # Entry point with demos
 ├── orchestrator.py      # Workflow orchestration
 ├── agents.py            # Specialized agent definitions
 ├── settings.py          # Configuration management
+├── utils.py             # Utility functions
+├── cli.py               # Command-line interface
+├── examples.py          # Advanced examples
 ├── .env.example         # Environment template
 ├── pyproject.toml       # Dependencies
-└── README.md           # Documentation
+├── docs/                # Documentation
+│   ├── QUICKSTART.md    # Quick start guide
+│   ├── STRUCTURE.md     # File structure details
+│   └── WORKFLOWS.md     # Workflow documentation
+└── README.md            # This file
 ```
 
 ## Features

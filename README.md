@@ -1,4 +1,4 @@
-# Generative AI Architecture Templates
+# Generative AI LangChain Cookbook
 
 A comprehensive collection of production-ready templates for building AI agents and multi-agent systems using Azure OpenAI and LangChain. This repository provides progressive learning paths from basic chat implementations to complex multi-agent architectures.
 
@@ -9,19 +9,19 @@ This repository contains five distinct templates, each designed to teach specifi
 ## Project Structure
 
 ```
-Generative AI Architecture/
+generative-ai-langchain-cookbook/
 ├── PYTHON_STYLE_GUIDE.md          # Coding standards and best practices
 ├── README.md                       # This file
-├── simple-agent-template/          # Single agent with comprehensive examples
-├── multi-agent-template/           # Multi-agent collaboration system
-├── agentic-template/               # Advanced agentic patterns (planned)
-├── a2a-template/                   # Agent-to-agent communication (planned)
-└── mcp-server-template/            # Model Context Protocol server (planned)
+├── 01-simple-agent/                # Single agent with comprehensive examples
+├── 02-multi-agent/                 # Multi-agent collaboration system
+├── 03-agentic-patterns/            # Advanced agentic patterns (planned)
+├── 04-agent-to-agent/              # Agent-to-agent communication (planned)
+└── 05-mcp-server/                  # Model Context Protocol server (planned)
 ```
 
 ## Templates
 
-### Simple Agent Template
+### 01. Simple Agent
 
 A comprehensive learning resource for building single AI agents with Azure OpenAI and LangChain. This template includes 10 progressive examples covering fundamental to advanced concepts.
 
@@ -68,7 +68,7 @@ Refer to the template's README for detailed setup instructions and example descr
 
 ---
 
-### Multi-Agent Template
+### 02. Multi-Agent
 
 A sophisticated multi-agent system demonstrating how specialized agents collaborate to complete complex tasks. Features three workflow patterns: sequential, parallel, and hierarchical.
 
@@ -144,7 +144,7 @@ Refer to the template's README and docs/ folder for architecture details, quicks
 
 ---
 
-### Agentic Template
+### 03. Agentic Patterns
 
 Advanced agentic patterns and architectures (in development).
 
@@ -159,7 +159,7 @@ This template will explore cutting-edge agentic AI patterns including:
 
 ---
 
-### A2A Template
+### 04. Agent-to-Agent
 
 Agent-to-agent communication patterns (in development).
 
@@ -174,7 +174,7 @@ This template will demonstrate:
 
 ---
 
-### MCP Server Template
+### 05. MCP Server
 
 Model Context Protocol server implementation (in development).
 
@@ -217,10 +217,10 @@ This template will provide:
 ### 1. Choose Your Starting Point
 
 **New to AI Agents?**
-Start with `simple-agent-template/` to learn foundational concepts.
+Start with `01-simple-agent/` to learn foundational concepts.
 
 **Building Multi-Agent Systems?**
-Explore `multi-agent-template/` for collaboration patterns.
+Explore `02-multi-agent/` for collaboration patterns.
 
 **Advanced Architectures?**
 Check back for upcoming agentic patterns and A2A communication templates.
@@ -239,15 +239,15 @@ Each template contains detailed setup instructions in its README file. Generally
 Templates are designed for progressive learning:
 
 ```
-Simple Agent Template (Foundations)
+01. Simple Agent (Foundations)
     ↓
-Multi-Agent Template (Collaboration)
+02. Multi-Agent (Collaboration)
     ↓
-Agentic Template (Advanced Patterns)
+03. Agentic Patterns (Advanced Patterns)
     ↓
-A2A Template (Distributed Systems)
+04. Agent-to-Agent (Distributed Systems)
     ↓
-MCP Server Template (Protocol Implementation)
+05. MCP Server (Protocol Implementation)
 ```
 
 ## Common Patterns
@@ -302,14 +302,14 @@ Follow the `PYTHON_STYLE_GUIDE.md` for consistent coding standards:
 
 ## Use Cases
 
-### Simple Agent Template
+### 01. Simple Agent
 - Customer support chatbots
 - Document Q&A systems
 - Personal assistants
 - Content generation tools
 - Data extraction applications
 
-### Multi-Agent Template
+### 02. Multi-Agent
 - Research and analysis pipelines
 - Collaborative content creation
 - Complex report generation
@@ -380,13 +380,13 @@ Each template contains specific documentation and troubleshooting guides. For ge
 ## Roadmap
 
 **Current Status:**
-- Simple Agent Template: Complete with 10 examples
-- Multi-Agent Template: Complete with 3 workflow patterns
+- 01-simple-agent: Complete with 10 examples
+- 02-multi-agent: Complete with 3 workflow patterns
 
 **In Development:**
-- Agentic Template: Advanced reasoning and planning patterns
-- A2A Template: Agent-to-agent communication protocols
-- MCP Server Template: Model Context Protocol implementation
+- 03-agentic-patterns: Advanced reasoning and planning patterns
+- 04-agent-to-agent: Agent-to-agent communication protocols
+- 05-mcp-server: Model Context Protocol implementation
 
 **Future Enhancements:**
 - Additional workflow patterns

@@ -14,7 +14,7 @@ This guide will help you set up and run the multi-agent system in minutes.
 
 ```bash
 # Navigate to project directory
-cd multi-agent-template
+cd 02-multi-agent
 
 # Create virtual environment
 python -m venv .venv

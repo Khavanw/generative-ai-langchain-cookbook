@@ -1,11 +1,11 @@
-# Single Agent Template with Azure OpenAI
+# 01. Simple Agent
 
 A comprehensive template for building AI agents using Azure OpenAI with different approaches: basic chat, function calling, tool calling, and RAG.
 
 ## Project Structure
 
 ```
-single-agent-template/
+01-simple-agent/
 ├── examples/
 │   ├── 01_basic_chat.py           # Simple chat completion example
 │   ├── 02_function_calling.py     # OpenAI function calling (manual)

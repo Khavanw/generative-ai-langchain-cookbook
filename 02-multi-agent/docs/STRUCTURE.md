@@ -1,4 +1,4 @@
-# Multi-Agent System - File Structure
+# 02. Multi-Agent - File Structure
 
 ## Overview
 
